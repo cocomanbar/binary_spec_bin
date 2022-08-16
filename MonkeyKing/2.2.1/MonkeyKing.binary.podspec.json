@@ -1,0 +1,27 @@
+{
+  "name": "MonkeyKing",
+  "version": "2.2.1",
+  "summary": "MonkeyKing helps you to post messages to Chinese Social Networks, or do OAuth and Payment.",
+  "description": "「   converted automatically by plugin cocoapods-imy-bin @厦门美柚 - slj    」\n          You just want to share some information to WeChat, QQ, Weibo ...\nWhy do we need to use their buggy SDKs?",
+  "homepage": "https://github.com/nixzhu/MonkeyKing",
+  "license": {
+    "type": "MIT",
+    "file": "LICENSE"
+  },
+  "authors": {
+    "nixzhu": "zhuhongxu@gmail.com"
+  },
+  "social_media_url": "https://twitter.com/nixzhu",
+  "platforms": {
+    "ios": "9.0"
+  },
+  "swift_versions": "5.0",
+  "source": {
+    "http": "http://localhost:8080/frameworks/MonkeyKing/2.2.1/zip",
+    "type": "zip"
+  },
+  "source_files": "Sources/MonkeyKing/*.swift",
+  "requires_arc": true,
+  "vendored_frameworks": "MonkeyKing.framework",
+  "swift_version": "5.0"
+}
