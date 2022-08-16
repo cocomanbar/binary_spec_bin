@@ -1,0 +1,23 @@
+{
+  "name": "ObjectMapper",
+  "version": "4.2.0",
+  "license": "MIT",
+  "summary": "JSON Object mapping written in Swift",
+  "homepage": "https://github.com/tristanhimmelman/ObjectMapper",
+  "authors": {
+    "Tristan Himmelman": "tristanhimmelman@gmail.com"
+  },
+  "source": {
+    "http": "http://localhost:8080/frameworks/ObjectMapper/4.2.0/zip",
+    "type": "zip"
+  },
+  "platforms": {
+    "ios": "8.0"
+  },
+  "swift_versions": "5.0",
+  "requires_arc": true,
+  "source_files": "Sources/**/*.swift",
+  "vendored_frameworks": "ObjectMapper.framework",
+  "description": "「   converted automatically by plugin cocoapods-imy-bin @厦门美柚 - slj    」",
+  "swift_version": "5.0"
+}
