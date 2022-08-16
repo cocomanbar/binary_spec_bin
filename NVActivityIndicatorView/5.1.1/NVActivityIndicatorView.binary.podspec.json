@@ -1,0 +1,47 @@
+{
+  "name": "NVActivityIndicatorView",
+  "version": "5.1.1",
+  "summary": "A collection of awesome loading animations",
+  "homepage": "https://github.com/ninjaprox/NVActivityIndicatorView",
+  "screenshots": "https://raw.githubusercontent.com/ninjaprox/NVActivityIndicatorView/master/Demo.gif",
+  "license": {
+    "type": "MIT",
+    "file": "LICENSE"
+  },
+  "authors": {
+    "Vinh Nguyen": "ninjaprox@gmail.com"
+  },
+  "social_media_url": "http://twitter.com/ninjaprox",
+  "documentation_url": "https://nvactivityindicatorview.vinhis.me",
+  "platforms": {
+    "ios": "9.0"
+  },
+  "swift_versions": "5.0",
+  "source": {
+    "http": "http://localhost:8080/frameworks/NVActivityIndicatorView/5.1.1/zip",
+    "type": "zip"
+  },
+  "default_subspecs": "Base",
+  "frameworks": [
+    "UIKit",
+    "QuartzCore"
+  ],
+  "vendored_frameworks": "NVActivityIndicatorView.framework",
+  "description": "「   converted automatically by plugin cocoapods-imy-bin @厦门美柚 - slj    」",
+  "subspecs": [
+    {
+      "name": "Base",
+      "source_files": "Sources/Base/**/*.swift"
+    },
+    {
+      "name": "Extended",
+      "dependencies": {
+        "NVActivityIndicatorView/Base": [
+
+        ]
+      },
+      "source_files": "Sources/Extended/**/*.swift"
+    }
+  ],
+  "swift_version": "5.0"
+}
