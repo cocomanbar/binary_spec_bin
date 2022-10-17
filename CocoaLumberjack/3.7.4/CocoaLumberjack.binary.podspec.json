@@ -1,0 +1,25 @@
+{
+  "name": "CocoaLumberjack",
+  "version": "3.7.4",
+  "license": "BSD",
+  "summary": "A fast & simple, yet powerful & flexible logging framework for macOS, iOS, tvOS and watchOS.",
+  "homepage": "https://github.com/CocoaLumberjack/CocoaLumberjack",
+  "authors": {
+    "Robbie Hanson": "robbiehanson@deusty.com"
+  },
+  "source": {
+    "http": "http://localhost:8080/frameworks/CocoaLumberjack/3.7.4/zip",
+    "type": "zip"
+  },
+  "description": "「   converted automatically by plugin cocoapods-imy-bin @厦门美柚 - slj    」\n It is similar in concept to other popular logging frameworks such as log4j, yet is designed specifically for objective-c, and takes advantage of features such as multi-threading, grand central dispatch (if available), lockless atomic operations, and the dynamic nature of the objective-c runtime.",
+  "platforms": {
+    "ios": "9.0"
+  },
+  "cocoapods_version": ">= 1.4.0",
+  "requires_arc": true,
+  "swift_versions": "5.0",
+  "source_files": "bin_CocoaLumberjack_3.7.4/Headers/*",
+  "public_header_files": "bin_CocoaLumberjack_3.7.4/Headers/*.h",
+  "vendored_libraries": "bin_CocoaLumberjack_3.7.4/*.a",
+  "swift_version": "5.0"
+}

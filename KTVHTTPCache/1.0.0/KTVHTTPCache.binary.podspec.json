@@ -1,0 +1,29 @@
+{
+  "name": "KTVHTTPCache",
+  "version": "1.0.0",
+  "summary": "A short description of KTVHTTPCache.",
+  "description": "「   converted automatically by plugin cocoapods-imy-bin @厦门美柚 - slj    」\n TODO: Add long description of the pod here.",
+  "homepage": "https://github.com/tanxl/KTVHTTPCache",
+  "license": {
+    "type": "MIT",
+    "file": "LICENSE"
+  },
+  "authors": {
+    "tanxl": "125322078@qq.com"
+  },
+  "source": {
+    "http": "http://localhost:8080/frameworks/KTVHTTPCache/1.0.0/zip",
+    "type": "zip"
+  },
+  "platforms": {
+    "ios": "10.0"
+  },
+  "source_files": "bin_KTVHTTPCache_1.0.0/Headers/*",
+  "dependencies": {
+    "CocoaHTTPServer": [
+      "~> 2.3"
+    ]
+  },
+  "public_header_files": "bin_KTVHTTPCache_1.0.0/Headers/*.h",
+  "vendored_libraries": "bin_KTVHTTPCache_1.0.0/*.a"
+}
